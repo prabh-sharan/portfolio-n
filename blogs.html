@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,11 @@
     <link href="styles.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <nav class="navigation container">
-        <div class="nav-brand">PrabhSharan</div>
+        <div class="nav-brand"><a href="index.html">PS</a></div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link" href="index.html">Home</a>
@@ -25,59 +27,78 @@
             <li class="list-item-inline">
                 <a class="link link-active" href="blogs.html">Blogs</a>
             </li>
-        </ul>                                              
+
+            <li class="list-item-inline">
+                <a class="link" onclick="scrollBottom()">Contact</a>
+            </li>
+        </ul>
     </nav>
 
-    <header class="hero">
+    <header class="hero ls">
         <h1 class="hero-heading">Coming
             <span class="heading-inverted">Soon</span>
         </h1>
-        
+
     </header>
 
     <ul class="list-non-bullet">
         <li>
-          <article class="showcase-list container container-center">
-            <h1>Dummy blog</h1>
-            <small>October, 2022</small>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia laoreet tempus. Maecenas congue, justo commodo viverra blandit, enim urna tincidunt ex, id sodales orci ex eget urna. Cras porta tempor turpis. Nam malesuada vitae est laoreet vestibulum. Fusce varius urna scelerisque elementum pulvinar. Donec in risus massa. Suspendisse potenti. Aliquam erat volutpat.
-            </p>
-  
-            <a class="link link-primary" href="https://prabhs.hashnode.dev/">Read More</a>
-          </article>
+            <article class="showcase-blog container container-center">
+                <h1 class="heading-blog">Dummy blog</h1>
+                <small>March, 2023</small>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia laoreet tempus.
+                    Maecenas congue, justo commodo viverra blandit, enim urna tincidunt ex, id sodales orci ex eget
+                    urna. Cras porta tempor turpis. Nam malesuada vitae est laoreet vestibulum. Fusce varius urna
+                    scelerisque elementum pulvinar. Donec in risus massa. Suspendisse potenti. Aliquam erat volutpat.
+                </p>
+
+                <a class="link link-primary" href="https://prabhs.hashnode.dev/">Read More</a>
+            </article>
         </li>
-  
+
         <li>
-          <article class="showcase-list container container-center">
-            <h1>Second dummy blog</h1>
-            <small>October, 2022</small>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia laoreet tempus. Maecenas congue, justo commodo viverra blandit, enim urna tincidunt ex, id sodales orci ex eget urna. Cras porta tempor turpis. Nam malesuada vitae est laoreet vestibulum. Fusce varius urna scelerisque elementum pulvinar. Donec in risus massa. Suspendisse potenti. Aliquam erat volutpat.
-            </p>
-  
-            <a class="link link-primary" href="https://prabhs.hashnode.dev/"> Read More</a>
+            <article class="showcase-blog container container-center ow">
+                <h1 class="heading-blog">Second dummy blog</h1>
+                <small>June, 2023</small>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lacinia laoreet tempus.
+                    Maecenas congue, justo commodo viverra blandit, enim urna tincidunt ex, id sodales orci ex eget
+                    urna. Cras porta tempor turpis. Nam malesuada vitae est laoreet vestibulum. Fusce varius urna
+                    scelerisque elementum pulvinar. Donec in risus massa. Suspendisse potenti. Aliquam erat volutpat.
+                </p>
 
-          </article>
+                <a class="link link-primary" href="https://prabhs.hashnode.dev/"> Read More</a>
+
+            </article>
         </li>
-      </ul>
+    </ul>
 
-      <footer class="footer">
-        <div class="footer-header">Connect with me:</div>
+    <!-- Footer blogs  -->
+    <footer class="footer" id="el">
         <ul class="social-links list-non-bullet">
-          <li class="list-item-inline">
-            <a class="link" href="https://github.com/prabh-sharan"> github </a>
-          </li>
-          <li class="list-item-inline">
-            <a class="link" href="https://twitter.com/wheat_dresnok"> twitter </a>
-          </li>
-          <li class="list-item-inline">
-            <a class="link" href="https://www.linkedin.com/in/prabh-sharan-singh">
-              linkedin
-            </a>
-          </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/wheat_dresnok">
+                    <img class="social-icon" src="./images/twitter.svg" alt="twitter icon link">
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/prabh-sharan">
+                    <img class="social-icon" src="./images/github.svg" alt="Github icon link">
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/prabh-sharan-singh">
+                    <img class="social-icon" src="./images/linkedin.svg" alt="linkedin icon link">
+                </a>
+            </li>
         </ul>
     </footer>
 
+    <script src="app.js"></script>
+
+
+
 </body>
+
 </html>
