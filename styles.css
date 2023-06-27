@@ -176,15 +176,14 @@ hr {
     .navigation {
         /* flex-direction: column; */
         /* text-align:left; */
-        border: 2px solid red;
         width: 100%;
-        padding:0.3em 1.5em;
+        padding:0.85em 1.5em;
     }
-
+    
     .navigation .nav-pills {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        margin:0 0.75em;
+        padding: 0;
+
     }
 
     .list-item-inline {
