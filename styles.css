@@ -210,6 +210,15 @@ hr {
     padding: 0;
 }
 
+@media (max-width: 675px) {
+
+    .hero{
+        flex-direction: column;
+    }
+
+
+}    
+
 
 
   /** sections **/
@@ -268,7 +277,7 @@ Contact section
 .section-contact{
     color: #fff;
     margin: 3.5em 0;
-
+    
 }
 
 .section-contact h2{
@@ -332,6 +341,15 @@ Contact section
 
 .form-btn:hover{
     background-color: #343a40;
+}
+
+
+@media (max-width: 675px) {
+
+    .section-contact h2{
+        width:50%;
+    }
+
 }
 
 
@@ -417,9 +435,10 @@ Contact section
 
 /*  ---Media queries--- */
   
-@media (max-width: 900px) {
+/* vp smaller than 675px */
+
+/* @media (max-width: 675px) {
     body {
-      max-width: 95%;
       width: 100%;
     }
   
@@ -435,4 +454,4 @@ Contact section
     .link-primary {
       display: block;
     }
-}
+} */
