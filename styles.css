@@ -28,6 +28,7 @@ hr {
 .container {
     /* padding: 0rem 1rem; */
     padding: 1.5em;
+    border:2px solid purple;
 
 }
 
@@ -40,9 +41,9 @@ hr {
 
 @media (max-width: 675px) {
 
-    /* .container-center{
-        max-width: 675px;
-    } */
+    .container-center{
+        width:70%;
+    }
 
 }   
 
@@ -272,6 +273,7 @@ hr {
     padding: 2rem 0;
     margin: 1.5rem 0;
     border-radius: 1rem;
+    border:2px solid red;
 
 }
 
@@ -288,8 +290,8 @@ hr {
 
 @media (max-width: 675px){
     .section{
-        border:2px solid red;
-        width: 100vw;
+        width: 90%;
+        margin: 0;
     }
 }
 
@@ -449,7 +451,7 @@ Contact section
 @media (max-width: 675px) {
     
     .footer{
-        width:100%;
+        max-width:100%;
     }
     .footer .social-icon {
         max-width:1.75em;
