@@ -13,6 +13,7 @@ body {
     width: 100%;
     margin: 0 auto;
     max-width: 100%;
+    border: 2px solid greenyellow;
 }
 
 hr {
@@ -176,7 +177,7 @@ hr {
     
     .navigation {
         /* justify-content: space-around; */
-        width: 100%;
+        width: auto;
         padding:0.5em 1.5em;
     }
     
@@ -290,8 +291,9 @@ hr {
 
 @media (max-width: 675px){
     .section{
-        width: 90%;
-        margin: 0;
+        /* width: 90%; */
+        margin:auto;
+        margin-right: 0;
     }
 }
 
