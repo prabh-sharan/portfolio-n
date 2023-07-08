@@ -13,7 +13,6 @@ body {
     width: 100%;
     margin: 0 auto;
     max-width: 100%;
-    border: 2px solid greenyellow;
 }
 
 hr {
@@ -27,10 +26,7 @@ hr {
 
 /* container */
 .container {
-    /* padding: 0rem 1rem; */
     padding: 1.5em;
-    border:2px solid purple;
-
 }
 
 .container-center {
@@ -187,7 +183,7 @@ hr {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        /* border: 2px solid red; */
+     
         
     }
     
@@ -211,7 +207,6 @@ hr {
     padding-top: 5rem;
     display: flex;
     justify-content: space-around;
-    /* border: 2px solid red; */
 }
 
 
@@ -274,8 +269,6 @@ hr {
     padding: 2rem 0;
     margin: 1.5rem 0;
     border-radius: 1rem;
-    border:2px solid red;
-
 }
 
 .section .section-heading {
@@ -320,8 +313,12 @@ hr {
 }
 
 
-
-
+@media (max-width: 675px) {
+    .skill-container ul{
+        /* width: auto; */
+        flex-direction: column;
+    }
+}    
 
 /* --------------
 Contact section
@@ -403,8 +400,7 @@ Contact section
         width: 50%;
     }
     .form-container{
-        /* border: 2px solid red; */
-        width: 60%;
+        width: 65%;
         background-color: #fff;
     }
 }
@@ -443,17 +439,11 @@ Contact section
 }
 
 
-.footer .social-icon:hover {
-    /* background-color: var(--off-white); */
-    /* border-radius: 12px; */
-    transform: scale(1.1);
-
-}
 
 @media (max-width: 675px) {
     
     .footer{
-        max-width:100%;
+        width:auto;
     }
     .footer .social-icon {
         max-width:1.75em;
@@ -500,24 +490,3 @@ Contact section
 }
 
 
-/*  ---Media queries--- */
-
-/* @media (max-width: 900px) {
-    body {
-      max-width: 95%;
-      width: 100%;
-    }
-  
-    .list-item-inline {
-      display: inline;
-      padding: 0rem;
-    }
-  
-    .container-center {
-      width: auto;
-    }
-  
-    .link-primary {
-      display: block;
-    }
-} */
