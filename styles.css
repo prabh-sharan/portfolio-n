@@ -115,7 +115,7 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    border-bottom-left-radius: 2rem;
+    /* border-bottom-left-radius: 2rem; */
     padding: 1.5em;
     letter-spacing: 2px;
     font-size: 1.125rem;
@@ -173,24 +173,26 @@ hr {
 @media (max-width: 675px) {
     
     .navigation {
-        /* justify-content: space-around; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         width: auto;
+        overflow-x: scroll;
         padding:0.5em 1.5em;
+        position: sticky;
+        top: 0;
     }
     
     .navigation .nav-pills {
         margin:0 1em 0 0;
         padding: 0;
         display: flex;
-        flex-direction: column;
         align-items: flex-start;
      
-        
     }
     
     .list-item-inline {
         margin-top: 0.5em;
-
     }
 
 }
