@@ -219,7 +219,7 @@ hr {
     width: 140px;
     border-radius: 50%;
     object-fit: cover;
-
+    
 }
 
 .hero .hero-heading {
@@ -232,6 +232,7 @@ hr {
 
 .hero .hero-about {
     letter-spacing: 1px;
+    margin-right: 0.5em;
 }
 
 .hero .hero-heading .heading-inverted {
